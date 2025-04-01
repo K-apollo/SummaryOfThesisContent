@@ -1,0 +1,347 @@
+# 스마트공장 기술 및 표준화 동향 정리
+
+출처 : [https://ettrends.etri.re.kr/ettrends/165/0905002208/32-3_78-88.pdf](https://ettrends.etri.re.kr/ettrends/165/0905002208/32-3_78-88.pdf)
+
+---
+
+1. 스마트제조
+
+1) 정의
+
+전통 제조산업에 **ICT**(Information communication technology: 정보통신기술)를 결합한 제조 기술
+
+2) 목적
+
+기존의 제조업 경쟁력 향상과 변화하는 시장 환경에 능동적으로 대응하기 위함
+
+3) 결과
+
+제품의 기획, 설계, 생산, 유통, 판매 등 전 과정을 ICT기술로 통합함으로써 최소 비용과 시간으로 고객 맞춤형 제품 생산 능력을 갖출 수 있다. 또한, 생산성 향상, 에너지 절감, 인간중심의 작업환경 구현 및 개인 맞춤형 제조 등 새로운 환경에 능동적으로 대응하는 차세대 공장 구축이 가능하다.
+
+※ 공장 운영과 관련된 다양한 산업 활동 분류
+
+1) 후방산업군
+
+제품원료가 되는 원부자재 및 이를 위한 근본 물질을 만드는 산업군
+
+2) 전방산업군
+
+전방산업군은 생산된 제품을 최종 소비자에게 판매하고, 제품 고장에 대한 수리서비스, 사용 종료된 제품의 폐기 또는 재활용 등 고객에 근접해 있는 주체들을 포함하는 산업군
+
+1. 기술 개요
+
+1) 스마트공장(smart factory): 제조가 수행되는 장소에 초점
+
+   기존 제조기술에 센서, 클라우드, 빅데이터, 정밀 제어, 모바일 등 다양한 **ICT**(Information communication technology: 정보통신기술)와의 융합을 통해 구축된다. 또한, 높은 수준의 자동화 및 지능화된 인프라를 제공함으로써 생산성 향상, 에너지 절감, 안전한 생산환경 구현, 다품종 복합생산이 가능한 유연한 생산체계의 구축이 가능
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9a8acaa8-f989-4713-a35e-4999b5d7b7f0/Untitled.png)
+
+※ 스마트공장 생태계의 주요 주체는 애플리케이션, 플랫폼, 디바이스로 구성되고, 여기에 네트워크, 상호운용성/보안 분야를 추가하여 다음의 4대 요소 기술과 관련 세부 기술로 구분
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7de749b9-c542-46f1-926b-c51019d3e792/Untitled.png)
+
+- 애플리케이션 분야
+    - 수요 맞춤형 공정 및 운영 최적화 기술
+    - 예측 기반 품질 및 설비 고도화 기술
+    - 인간 중심 안전 및 작업 지원 기술
+    - 지능형 유통 및 조달 물류 기술
+    - 스마트공장 통합 운영 및 서비스 기술
+
+- 플랫폼 분야
+    - 빅데이터 분석 기술
+    - CPS (Cyber-physical systems: 가상물리시스템) 기술
+    - 공장 자원 모델링/시뮬레이션 기술
+    - 생산 프로세스 제어/관리 기술
+    - 클라우드 기술
+
+- 디바이스/네트워크 분야
+    - 스마트공장 산업 네트워크 기술
+    - 인지형 스마트센서 기술
+    - 이종 연동형 산업용 게이트웨이 기술
+
+- 상호운용성/보안 분야
+    - 스마트공장 관련 표준화 기술
+    - 악성코드의 실행 및 확산 방지 기술
+    - S/W 신뢰성, 보안성 검증 기술
+    - 데이터 보호 및 원격관리 기술
+
+2) 스마트제조(smart manufacturing): 제품이 제조되는 행위에 초점
+
+1. 해외 기술 현황
+
+스마트공장과 관련한 애플리케이션과 플랫폼은 수평적·수직적 통합이, 스마트디바이스는 기기 간의 연결이 주된 이슈로서, 전 세계적으로 시스템 공급업체들을 중심으로 요소기술 혁신과 통합이 이루어지고 있다.
+
+전통적인 전문분야를 기반으로 하드웨어는 상위응용영역까지, 소프트웨어는 **IoT**(Internet of things, 사물인터넷), 클라우드 등을 접목하여 개발하는 추세이다. 글로벌 선도 기업들은 글로벌 시장지배력을 무기로 하여 아래와 같이 독점을 점차 강화하고 있다.
+
+- Siemens(지멘스)
+
+생산설비, 제어시스템 및 산업용 소프트웨어 등 거의 모든 산업분야의 제조 및 공정자동화 솔루션을 보유하고 있으며, 자동화, 디지털화 영역에 핵심 역량 집중.
+
+- Rockwell Automation(록웰 자동화)
+
+센서 장비, 제어 장비 등 하드웨어에서 네트워크 기술 및 소프트웨어와 같은 인프라와 응용프로그램까지 산업 전 분야에 걸친 자동화와 정보 솔루션 제공.
+
+- Mitsubishi Electric(미츠비시 전기)
+
+로봇, 제어기, **PLC**(Programmable logic controller: 프로그램화할 수 있는 논리 제어장치) 등 공장자동화와 관련된 다양한 기기 및 제어 솔루션을 보유하고 있으며 공장 전체를 커버하는 패키지형 솔루션으로 확대.
+
+- Schneider Electric(슈나이더 전기)
+
+에너지 관리 분야 글로벌 기업으로 빌딩자동화, 제어 및 전력 모니터링 기술을 바탕으로 공장, 주택, 빌딩의 에너지 인프라와 데이터 및 네트워크 솔루션 제공.
+
+- Honeywell(하니웰)
+
+자동화기기, 제어기기, 전자통신 제조업체로 대형 전자장치에서 소형 온도조절기까지 다양한 제품을 공급하고 있으며, 데이터 처리 시스템과 산업용 애플리케이션 등 소프트웨어 솔루션으로 사업 영역 확대.
+
+- SAP
+
+시스템, 애플리케이션, 데이터 처리 등의 IT 기술을 바탕으로 ERP(Enterprise Resource Planning: 기업자원기획)와 같이 기업의 사업운영 및 고객관계를 관리하는 기업용 소프트웨어 제공.
+
+- Oracle(오라클)
+
+소프트웨어, 서버, 네트워크, 스토리지 부문 전문기업으로 **DBMS**(Database Management System, 데이터베이스 관리시스템), **ERP**(Enterprise Resource Planning: 기업자원기획), **CRM**(Customer relationship management: 고객관계관리) 및 공급망 관리 시스템인 **SCM**(Supply Chain Management: 공급망관리) 소프트웨어 제공.
+
+- AutoDesk(오토데스크)
+
+건축, 엔지니어링, 건설 등 다양한 분야의 소프트웨어를 제공하며, 클라우드 서비스, 캐드 기반 솔루션, 3D(3 dimensional: 3차원) 솔루션 보유.
+
+- Dassault Systems(다소 시스템즈)
+
+3D **CAD**(Computer-aided design: 캐드: 컴퓨터지원설계), 3D 디지털 목업(Digital mockup: 디지털 실물크기모형), 기업 간 협업 솔루션, 제조 지능화 솔루션, PLM(Product Lifecycle Management: 제품 수명주기 관리) 솔루션을 자동차, 항공 등 다양한 기업에 제공.
+
+- PTC
+
+3D 캐드 기반의 PLM 및 서비스관리 솔루션을 보유하고 있으며, 엔지니어링 분야의 수치해석기반 솔루션 제공.
+
+- Cisco(시스코)
+
+네트워크 전문기업으로 스위치, 클라우드, 스토리지 네트워킹, 라우터, 소프트웨어 등 다양한 통신관련 제품을 보유하고 있으며, 엔터프라이즈 네트워크 서비스, 클라우드 서비스, 통합 컴퓨팅 서비스 등을 제공.
+
+1. 국내 기술 현황
+
+국내 제조기업의 경우 대기업을 중심으로 ICT를 적용하여 제조현장을 혁신하고자 하는 시도가 일부 진행되고 있으나 외산 솔루션에 대한 의존도가 높고, 국내에서 스마트공장에 대한 민간투자는 아직 초기 단계이다
+
+국내의 하드웨어 디바이스 요소 전문 기업은 대부분 영세하며, 대기업 관련 SI(Systems integrator: 시스템 통합 업체) 기업들과 중소 제조기업에 대한 시스템 구축 기업이 대부분인 상황이다. 국내 기업의 생태기반은 전체적으로 취약한 편이지만, 외산 솔루션을 도입하여 시스템 통합을 하는 ICT 융복합 기술은 상대적으로 강한 편이다.
+
+- 포스코
+
+**RFID**(Radio-frequency identification: 무선 주파수 ID 식별)/**GPS**(Global Positioning System: 범지구위치결정시스템) 기반 물류체계를 구축했으나 협력업체들의 비용 부담으로 인해 전체 협력업체로의 확산은 부족한 상황이며, 스마트공장 구축을 위한 ICT 요소 기술 적용 시도.
+
+- LS 산전
+
+스마트공장 시범사업을 통해 PLC 기반의 조립 자동화 라인을 구축하여 자동화 수준을 86%에서 95%까지 높였으며, **SCM**(Supply Chain Management: 공급망관리)을 개선하고 생산계획 수립 및 실적관리 최적화.
+
+- 현대기아차
+
+2019년까지 5년간 500억원을 대·중소기업협력재단에 출연하여 ICT 역량이 부족한 중소 협력사의 공장 스마트화를 적극 추진.
+
+- 삼성전자
+
+2015년 경북창조경제혁신센터와 함께 경북지역에 100개 스마트공장 구축을 시작으로 2017년까지 400개의 스마트공장을 육성할 계획이며, 이를 통해 경북 지역 노후 제조설비의 첨단화지원.
+
+- LG CNS
+
+LG 그룹사, 외부 IT 서비스 및 컨설팅 서비스를 제공하고 있으며, 특히 MES: 생산관리시스템)와 같은 소프트웨어나 공정설계 서비스와 같이 공장 전반적인 솔루션 제공.
+
+- 삼성 SDS
+
+미라콤아이앤씨를 인수하여 MES 뿐 아니라 설비자동화, 공장모니터링, 제조품질관리, 생산스케쥴링 등의 솔루션 제공.
+
+- 포스코 ICT
+
+철강분야 시스템에 공정별 IT 설계 및 구축을 주로 수행하였으며, MES 뿐만 아니라 HMI(human-machine interface: 인간과 기계의 상호작용), 전기제어, 설비 등의 역량 보유.
+
+- 에임시스템
+
+반도체, 태양광, 자동차/기계, 화학전자재료 등 다양한 분야의 생산정보시스템을 구축하였으며, 공장·장비 자동화를 위한 MES 및 제어 솔루션 보유.
+
+- 에이시에스
+
+실시간 생산정보화를 위한 컨설팅 및 시스템 통합을 제공하며 MES 등의 솔루션부터 IoT(Internet of Things: 사물인터넷) 센서 및 디바이스까지 공장 전반의 하드웨어, 미들웨어 및 IT 서비스 제공.
+
+- 엑센 솔루션
+
+자동차 부품, 반도체, 중공업, 기계, 식품, 제약 등 다양한 제조업을 대상으로 MES 마스터 플랜 컨설팅 서비스 및 제조 시스템 구축 서비스 제공.
+
+- 신명정보통신
+
+뿌리산업 위주로 센서, M2M(Machine to machine: 기계 대 기계) 디바이스 및 정보통합 솔루션 제공.
+
+- 이도링크
+
+IoT/M2M 관련 네트워크 장비, 개방형 플랫폼 및 미들웨어를 활용해서 응용서비스 개발. 특히 위치 기반 서비스(LBS: Location-based service)를 활용한 서비스 구축에 집중.
+
+- 이랜서
+
+RFID(Radio-frequency identification무선 주파수 ID 식별) 기반의 IT 아웃소싱, SI(System integrator: 시스템 통합 업체), 및 컨설팅 서비스를 제공하고 있으며 제조 기업을 대상으로 ICT를 적용.
+
+- 아이디로
+
+**UHF**(Ultra High Frequency: 극초단파) 및 가시광 RFID 모듈 및 시스템 생산업체로서, LED(Light emitting diode: 발광 다이오드)를 장착한 가시광 RFID 활용 공정 자동화용 RFID 솔루션 보유.
+
+- 핸디소프트
+
+Handypia IoT 플랫폼 및 SaaS(Software as a Service: 서비스로서의 소프트웨어) 플랫폼을 보유했으며, 소프트웨어뿐만 아니라 하드웨어 분야로서 네트워크 솔루션 기업인 다산네트웍스 보유.
+
+- 한국오픈솔루션
+
+기업용 오픈소스 플랫폼 전문기업으로, 빅데이터 기반 제조 및 플랜트 운영 인텔리전스 솔루션 보유.
+
+Ⅲ. 표준화 동향
+
+1. 국제 표준화 동향
+    
+    1) 스마트공장에 대한 표준화 구분
+    
+    (1) 제조와 직접 관련 있는 표준을 진행하는 것
+    
+    ISO TC 184와 IEC TC 65에서 주로 진행
+    
+    ※ **ISO** International Organization for Standardization: 국제 표준화 기구
+    
+    ※ **TC** Technical Committee: 기술위원회
+    
+    ※ **IEC**(International Electrotechnical Commission: 국제전기기술위원회)
+    
+    (2) 제조에 대한 지능화 등 제조와 간접적으로 관련된 표준화를 진행하는 것
+    
+    ISO/IEC JTC 1, oneM2M, IEEE, OMG(Object Management Group), IIC (Industrial Internet Consortium) 등 다양한 표준화기구에서 IoT, 빅데이터, 클라우드 컴퓨팅, 보안, CPS, M2M 등의 분야에 대해 표준 개발이 이루어지고 있음
+    
+    ※ **ISO/IEC JTC** : International Organization for Standardization/ International Electrotechnical Commission Joint Technical Committee: ISO/IEC 합동기술위원회)
+    
+    ※ **oneM2M**(one machine to machine: 사물통신(M2M) 분야 국제 표준화 협력체)
+    
+    ※ **IEEE**: Institute of Electrical and Electronics Engineers: 전기전자공학자협회)
+    
+    ※ **OMG**(Object Management Group: 사물관리단체
+    
+    ※ **IIC** (Industrial Internet Consortium) 산업 인터넷 컨소시엄
+    
+    ※ **CPS** Cyber-Physical Systems: 가상물리시스템
+    
+    ※ **M2M**(Machine to machine: 기계 대 기계)
+    
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2274e166-69e3-4037-9d2a-5997af4e06b4/Untitled.png)
+
+가. ISO TC 184/SC 4- 산업 데이터 표준 개발
+
+※ **ISO** International Organization for Standardization: 국제 표준화 기구
+※ **TC** Technical Committee: 기술위원회
+※ **ISO TC 184/SC 4**:  Subcommittee 4 of ISO/TC 184, Technical Committee 184 of the International Organization for Standardization (ISO). 국제표준화기구의 기술위원회 184의 제4 소위원회/분과위원회
+
+※ **STEP** STandard for the Exchange of Product Model Data: 제품모델데이타 교환 표준 - 제조업체에서 제품을 개발하고 생산할 때, 서로 다른 자동화 시스템 간에 제품 정보 교환을 위한 인터페이스 기술- STEP을 이용하면 내부적 및 외부적 의사 전달이 가능하고, 응용 프로그램 간에 공학적 데이터를 공유할 수 있다.
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/aed9c3d7-22c6-4e17-9c12-744c258bff37/Untitled.png)
+
+(그림 1)
+산업데이터 표준의 활용 예로서, 기계제품을 설계하여, 해석을 통해 성능을 확인하고, 제조 단계를 거쳐 생산되는 과정에 설계정보가 다양한 형태의 자동화 시스템으로 교환되는 모습
+
+나. ISO TC 184/SC 5(기업 시스템과 자동화 응용을 위한 상호운용성, 통합 및 아키텍처)
+
+※ ISO TC 184/SC 5/SG 3(A3I)
+
+제조 설비의 정보화 및 자동화 통합 정도를 평가하기 위한 프레임워크를 개발하여 다양한 산업군을 대상으로 제조 설비의 ICT 기술 융합 정도를 측정할 수 있는 평가 모델을 개발
+
+※ **SG**: strategic group: 전략그룹
+※ **A3I**(Assessment Framework when Integrating Informatization and Industrialization Domains in Industrial Enterprises: 산업체에서 정보화와 산업화 영역을 통합할 때의 평가 체제)
+※ **3I**: informatization(정보화), industrialization(산업화), integration(통합)
+
+※ **WG**: working group: 더블류지: 워킹그룹: 특별조사위원회
+
+ISO TC 184/SC 5/WG 4
+
+WG 4에서는 제조 응용 시스템들에 대한 상호운용성 관련 표준화가 진행
+
+※ **NP** New Proposal: 신제안
+※ **ETRI** Electronics and Telecommunications Research Institute: 전자통신연구원
+※ **SG**: strategic group: 전략그룹
+※ **WG**: working group: 더블류지: 워킹그룹: 특별조사위원회
+
+**ISO TC 184/SC 5/JWG 5**
+
+ISO TC 184/SC 5와 IEC TC 65/SC 65E가 공동으로 설립한 그룹으로, IEC 62264 표준을 개발 중
+
+※ **JWG**: Joint Working Group: 합동특별조사위원회
+※ **ISA**: the International Society of Automation: 국제자동화협회
+※ **ISA-95:** ISA에서 만든 국제표준
+※ **PAS** Publicly Available Standard: 공공활용표준/ 범용표준- 국제표준 이전 단계를 의미
+
+1. **IEC TC 65/SC 65C**
+SC 65C는 주로 산업용 케이블과 산업용 유무선 네트워크 관련 표준을 개발해 왔으며, 우리나라에서는 한양대, LS산전 등이 SC 65C에서 주로 활동해 왔다. 이를 통해 LS산전이 개발한 **RAPIEnet**(Real-time automation protocols for industrial ethernet)과 RRP(Ring-based redundancy protocol) 기술이 10건의 IEC 표준으로 제정되었다.
+
+※ **RAPIEnet**(Real-time Automation Protocols for Industrial Ethernet: 산업용 이더넷 실시간 자동 통신규약
+※ **RRP** Ring-based Redundancy Protocol: 고리기반형 잉여 통신규약
+
+다. **IEC TC 65/SC 65E**
+
+SC 65E는 시스템 통합 분야를 다루고 있고, ISO TC 184/SC 5가 수행하는 표준화 영역과 관련이 많다.
+
+※ **ahG**: ad hoc Group: 특별그룹
+※ **RAMI 4.0** Reference Architecture Model for Industry 4.0: 산업 참고 체계 모형- 독일에서 국가표준으로 제정한 것
+
+라. **IEC/SEG 7**
+
+IEC는 표준화관리이사회(SMB: Standardization Management Board) 내 전략그룹인 SG 8(Industry 4.0–Smart Manufacturing)은 2년간의 표준화 연구를 거쳐 2016년 6월에 활동을 종료하였다.
+SG 8에서는 독일에서 개발한 RAMI 4.0 모델을 이용하여 (그림 2)와 같이 IEC 관련 표준들을 표시하였다.
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7ba98219-4705-490f-a2ad-76c2c261052b/Untitled.png)
+
+이러한 SG 8의 후속 대응 연구를 위해 IEC는 SEG 7을 설립하였다. SEG 7은 스마트제조에 관련된 IEC 산하표준화 그룹들에 공통적으로 필요한 표준화 항목이 있는지 관련 기존 표준화 동향과 향후 대응 방안 등을 논의하기 위한 그룹이다.
+
+※ **SG**: strategic group: 전략그룹
+※ **SEG 7** Systems Evaluation Group 7: 시스템 평가 그룹
+※ **SMB** Standardization Management Board: 표준화 관리 위원회
+※ **SyC** Systems Committee: 시스템 위원회
+
+1. 국내 표준화 동향
+    
+    국내 스마트공장 분야에서는 제조와 관련된 가치사슬 전체의 요소들을 가장 효율화시킬 수 있는 방향으로 표준화 작업이 이루어진다.
+    
+    ※ **value chain** : 가치사슬:  기업이 상품과 서비스를 생산・유통하면서 고객들에게 가치를 제공하는 일련의 활동
+    
+    ※ **TTA** Telecommunications Technology Association: (원거리)통신 기술 협회- 한국정보통신기술협회
+    
+
+**IV.  약어 정리**
+
+<약어 정리>
+※ **A3I**(Assessment Framework when Integrating Informatization and Industrialization Domains in Industrial Enterprises: 산업체에서 정보화와 산업화 영역을 통합할 때의 평가 체제)
+※ **3I**: informatization(정보화), industrialization(산업화), integration(통합)
+
+**CAD** Computer-Aided Design: 컴퓨터지원설계)
+**COSD** Co-operating Organization for Standards Development: 표준개발 협력기관
+**CPS** Cyber-Physical Systems: 가상물리시스템
+**CRM** Customer Relationship Management: 고객관계관리
+**ERP** Enterprise Resource Planning(Enterprise Resource Planning: 기업자원기획)
+**ETRI** Electronics and Telecommunications Research Institute: 전자통신연구원
+**ICT** Information Communication Technology: 정보통신기술)
+**IEC** International Electrotechnical Commission: 국제전기기술위원회
+**IEEE** Institute of Electrical and Electronics Engineers: 전기전자공학자협회)
+**IIC** Industrial Internet Consortium 산업 인터넷 컨소시엄
+**IoT** Internet of Things: 사물인터넷
+**ISO** International Organization for Standardization: 국제 표준화 기구
+**IT** Information Technology: 정보 기술
+**JTC** International Organization for Standardization/ International Electrotechnical Commission Joint Technical Committee(ISO/IEC 합동기술위원회)
+**JWG** Joint Working Group: 합동특별조사위원회
+**LBS** Location-Based Service: 위치 기반 서비스
+**LED** Light Emitting Diode: 발광 다이오드
+**M2M** Machine to Machine: 기계 대 기계
+**MES** Manufacturing Execution System: 생산관리시스템
+**NP** New Proposal: 신제안
+**OMG** Object Management Group: 사물관리단체
+**PAS** Publicly Available Standard: 공공활용표준/ 범용표준- 국제표준 이전 단계를 의미
+**PLC** Programmable Logic Controller: PLC: 프로그램화할 수 있는 논리 제어장치
+**PLM** Product Lifecycle Management: 제품 수명주기 관리
+**RAMI 4.0** Reference Architecture Model for Industry 4.0: 산업 참고 체계 모형
+**RAPIEnet** Real-time Automation Protocols for Industrial Ethernet: 산업용 이더넷 실시간 자동 통신규약
+**RFID** Radio-Frequency Identification: 무선 주파수 ID 식별
+**RRP** Ring-based Redundancy Protocol: 고리기반형 잉여 통신규약
+**SaaS** Software as a Service: 서비스로서의 소프트웨어
+**SCM** Supply Chain Management: 공급망관리)
+**SEG 7** Systems Evaluation Group 7: 시스템 평가 그룹
+**SMB** Standardization Management Board: 표준화 관리 위원회
+**STEP** STandard for the Exchange of Product Model Data: 제품모델데이타 교환 표준
+**SyC** Systems Committee: 시스템 위원회
+**TTA** Telecommunications Technology Association: (원거리)통신 기술 협회- 한국정보통신기술협회
+**UHF** Ultra High Frequency: 극초단파
